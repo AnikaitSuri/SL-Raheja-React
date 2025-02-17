@@ -1,0 +1,44 @@
+.healthcheckup-compare {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: var(--theme-darkgreen);
+}
+
+.healthcheckup-compare.selected {
+    color: var(--theme-darkgreen);
+    font-weight: bold;
+}
+
+.compare-items {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.compare-item {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    width: calc(33.33% - 20px);
+}
+
+.compare-remove {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 18px;
+    height: 18px;
+    color: var(--theme-darkgreen);
+    text-align: center;
+    border: none;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
