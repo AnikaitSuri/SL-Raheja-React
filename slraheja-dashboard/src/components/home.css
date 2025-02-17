@@ -1,0 +1,17 @@
+.css-p51h6s-MuiInputBase-input-MuiOutlinedInput-input,
+.loginEmail,
+.loginPass {
+    border: 1px solid #f2f2f2 !important;
+}
+
+.css-p51h6s-MuiInputBase-input-MuiOutlinedInput-input:focus,
+.loginEmail:focus,
+.loginPass:focus {
+    outline: 1 !important;
+}
+
+.css-1sgzrdc-MuiButtonBase-root-MuiButton-root {
+    color: #000000 !important;
+    background-color: #3fb4ad !important;
+    font-weight: bold !important;
+}
